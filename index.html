@@ -501,7 +501,7 @@
 ├── src/
 │   ├── main.js
 │   └── components/
-│       └── index.js
+│       └── index.js (auto-generated)
 └── public/
     └── components/
         └── app/
@@ -534,10 +534,10 @@
       <div class="callout">
         <strong>Filename Convention:</strong> <code>/public/components/{prefix}/{prefix}-{suffix}.html</code> → <code>&lt;prefix-suffix&gt;</code>
         <br/><br/>
-        Example: <code>/public/components/app/app-shell.html</code> → <code>&lt;app-shell&gt;</code>
+        Example: <code>/public/components/app/app-start.html</code> → <code>&lt;app-start&gt;</code>
       </div>
 
-      <p><strong>File:</strong> <code>/public/components/app/app-shell.html</code></p>
+      <p><strong>File:</strong> <code>/public/components/app/app-start.html</code></p>
 
       <pre><code>&lt;template&gt;
   &lt;header&gt;
@@ -595,7 +595,7 @@ button.addEventListener('click', () => {
 
 // Access the host element
 const host = shadowDocument.host;
-console.log(host.tagName); // "APP-SHELL"
+console.log(host.tagName); // "APP-START"
 &lt;/script&gt;</code></pre>
 
       <div class="callout warning">
