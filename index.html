@@ -3,11 +3,10 @@
 
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+  <link rel="stylesheet" href="./assets/style/default.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla SPA — Relaxed Web Development</title>
-
-  <!-- Fonts -->
-  <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
+  <title>Vanilla SPA — Sustainable Web Development</title>
 
   <style>
     /* ══════════════════════════════════════════════════════════════ */
@@ -37,7 +36,7 @@
       --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.08);
       --radius: 12px;
       --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-      --font-mono: 'JetBrains Mono', monospace;
+      --font-mono: 'Inter', monospace;
     }
 
     body {
@@ -538,8 +537,7 @@
     "build": "npm run generate && vite build"
   }
 }</code></pre>
-          <p><strong>generate.cjs</strong> automatically scans <code>/public/components</code> and builds your component
-            registry.</p>
+          <p><strong>generate.cjs</strong> scans <code>/public/components</code>. All found components are added automagically to your customElements registry with web-components.</p>
         </div>
       </div>
 

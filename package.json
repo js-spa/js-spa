@@ -1,0 +1,21 @@
+{
+  "name": "vanillaspa",
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "@vitejs/plugin-basic-ssl": "^2.1.4"
+  },
+  "dependencies": {
+    "@vanillaspa/event-bus": "latest",
+    "@vanillaspa/web-components": "latest",
+    "@vanillaspa/sqlite-database": "latest"
+  },
+  "license": "Unlicense",
+  "scripts": {
+    "dev": "npm run generate && vite",
+    "build": "npm run generate && vite build",
+    "preview": "npm run build && vite preview",
+    "generate": "node node_modules/@vanillaspa/web-components/generate.cjs"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
