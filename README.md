@@ -14,10 +14,7 @@ This is free and unencumbered software released into the public domain. [The Unl
 
 You need to have <a title="NodeJS" href="https://nodejs.org"><img height="20" alt="NodeJS-logo" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></a> installed.
 
-The Vanilla SPA boilerplate consists of
-[web-components](https://github.com/vanillaspa/web-components)
-[event-bus](https://github.com/vanillaspa/event-bus),
-[sqlite-database](https://github.com/vanillaspa/sqlite-database), a <a title="SQLite" href="https://sqlite.org/wasm"><img height="20" alt="SQLite-logo" src="https://sqlite.org/images/sqlite370_banner.gif"></a> database within the [Origin Private Filesystem (OPFS)](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system)
+The Vanilla SPA boilerplate consists of [web-components](https://github.com/vanillaspa/web-components), an [event-bus](https://github.com/vanillaspa/event-bus), and a [sqlite-database](https://github.com/vanillaspa/sqlite-database) (<a title="SQLite" href="https://sqlite.org/wasm"><img height="20" alt="SQLite-logo" src="https://sqlite.org/images/sqlite370_banner.gif"></a>) within the [Origin Private Filesystem (OPFS)](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system)
 on top of <a title="Vite" href="https://vitejs.dev"><img height="20" alt="Vitejs-logo" src="https://vitejs.dev/logo.svg"></a>
 
 ### Getting started
